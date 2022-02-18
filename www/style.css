@@ -1,0 +1,142 @@
+*{
+  position: relative;
+}
+
+body{
+background: #2b5876; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2b5876, #4e4376); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2b5876, #4e4376);
+}
+
+.head1 {
+    font-size : 35px;
+    font-family : "Times New Roman";
+    text-align : center;
+    margin-top: -5px;
+    user-select: none;
+}
+
+.ico{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-self: center;
+    user-select: none;
+}
+
+
+button{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(207, 207, 207);
+  }
+  
+button:hover{
+border: none;
+padding: 15px;
+border-radius: 15px;
+box-shadow: inset 0 0 8px #f9f8fc;
+}
+
+#foot{
+position: relative;
+top: 15px;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+border: none;
+padding: 15px;
+border-radius: 15px;
+box-shadow: 0 0 8px #d9d4e7;
+width: 200px;
+height: 65px;
+background-color: #d9d4e7;
+animation-duration: 5s;
+}
+
+.button-os{
+    user-select: none;
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #a678cf;
+    transition: background-color 2.0s;
+    transition-duration: 0.5s;
+    transition: 0.75s;
+    margin-right: auto;
+    margin-top:240px;
+}
+  
+.button-os:hover{
+position: absolute;
+top: 10px;
+background-color: #8658b0;
+}
+
+.button-os a{
+font-size: 20px;
+display: block;
+text-decoration: none;
+color:#0e172c;
+transition: 1.0s;
+}
+
+.button-os a:hover{
+letter-spacing: 5px;
+}
+  
+.button-os:focus{
+  outline: none;
+}
+
+
+
+.button-os1{
+    user-select: none;
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #a678cf;
+    transition: background-color 2.0s;
+    transition-duration: 3s;
+    transition: 0.75s;
+    margin-right: auto;
+    margin-top:380px;
+}
+  
+.button-os1:hover{
+position: absolute;
+top: 10px;
+background-color: #8658b0;
+}
+
+.button-os1 a{
+font-size: 20px;
+display: block;
+text-decoration: none;
+color:#0e172c;
+transition: 1.0s;
+}
+
+.button-os1 a:hover{
+letter-spacing: 5px;
+}
+  
+.button-os1:focus{
+  outline: none;
+}
